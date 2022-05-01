@@ -1,6 +1,6 @@
 import wollok.game.*
     
-const velocidad = 250
+const velocidad = 300
 
 object juego{
 
@@ -109,7 +109,7 @@ object dino {
 	var vivo = true
 	var position = game.at(1,suelo.position().y())
 	
-	method image() = "dino.png"
+	method image() = "dino2.png"
 	method position() = position
 	
 	method saltar(){
